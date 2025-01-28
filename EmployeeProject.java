@@ -3,7 +3,7 @@ public class EmployeeProject {
     private String employeeNumber;
     private String hireDate;
 
-    
+    // Constructor
     public EmployeeProject(String name, String employeeNumber, String hireDate) {
         this.name = name;
         this.employeeNumber = employeeNumber;
