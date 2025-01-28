@@ -1,9 +1,9 @@
-public class WorkerProject {
+public class ProjectWork {
     private String name;
     private String employeeNumber;
     private String hireDate;
 
-    public WorkerProject(String name, String employeeNumber, String hireDate) {
+    public ProjectWork(String name, String employeeNumber, String hireDate) {
         this.name = name;
         this.employeeNumber = employeeNumber;
         this.hireDate = hireDate;
@@ -37,7 +37,7 @@ public class WorkerProject {
     // Main method for testing
     public static void main(String[] args) {
         // Create a Worker object
-        WorkerProject worker = new WorkerProject("John Doe", "123-A", "01/15/2022");
+        ProjectWork worker = new ProjectWork("John Doe", "123-A", "01/15/2022");
 
         // Display initial worker information
         System.out.println("Initial Worker Information:");
