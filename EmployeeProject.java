@@ -1,10 +1,10 @@
-public class EmployeeProject1 {
+public class EmployeeProject {
     private String name;
     private String employeeNumber;
     private String hireDate;
 
-//it has the name of the employee, employee number, and hire date
-    public EmployeeProject1(String name, String employeeNumber, String hireDate) {
+    
+    public EmployeeProject(String name, String employeeNumber, String hireDate) {
         this.name = name;
         this.employeeNumber = employeeNumber;
         this.hireDate = hireDate;
@@ -39,7 +39,7 @@ public class EmployeeProject1 {
     // Main method for testing
     public static void main(String[] args) {
         // Create an Employee object
-        EmployeeProject1 employee = new EmployeeProject1("John Doe", "123-A", "01/15/2022");
+        EmployeeProject employee = new EmployeeProject("John Doe", "123-A", "01/15/2022");
 
         // Display initial employee information
         System.out.println("Initial Employee Information:");
